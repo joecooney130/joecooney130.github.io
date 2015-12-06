@@ -1,22 +1,29 @@
 body {
   margin: 0;
+  background-image: url(http://www.psdgraphics.com/file/basketball-floor-texture.jpg);
 }
 
 header {
-  background: #3d9970;
+  background: #2e484c;
   color: white;
   padding: 5px 15px 5px 15px;
 }
 
 header h1 {
-  margin: 0;
+  margin: 2em 0 0 0;
   display: inline;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.8em;
+
 }
 
 nav ul {
   margin: 0;
   padding: 0 0 0 15px;
   display: inline;
+
 }
 
 nav ul li {
@@ -31,5 +38,12 @@ nav ul li {
 nav ul li a {
   color: white;
 }
+
+p {
+  color: #2e484c;
+  font-family: 'Libre Baskerville', sans-serif;
+  text-align: left;
+}
+
 
 
