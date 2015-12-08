@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(http://www.psdgraphics.com/file/basketball-floor-texture.jpg);
+  background-image: url("http://images.all-free-download.com/images/graphiclarge/old_paper_background_hd_picture_2_169574.jpg");
 }
 
 header {
@@ -16,7 +16,10 @@ header h1 {
   text-transform: uppercase;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 1.8em;
+}
 
+nav h1 a{
+  color: white;
 }
 
 nav ul {
@@ -27,7 +30,7 @@ nav ul {
 }
 
 nav ul li {
-  background: #aaaaaa;
+  background: #2e484c;
   color: white;
   list-style-type: none;
   display: inline-block;
@@ -40,7 +43,13 @@ nav ul li a {
 }
 
 p {
-  color: #2e484c;
+  color: #000;
+  font-family: 'Libre Baskerville', sans-serif;
+  text-align: left;
+}
+
+ul {
+  color: #000;
   font-family: 'Libre Baskerville', sans-serif;
   text-align: left;
 }
